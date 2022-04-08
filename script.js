@@ -33,7 +33,7 @@ function displayResults(data) {
 }
 
 async function getResponse(searchQuery) {
-  const apiKey = "AIzaSyCcPQsUcadIJEbAm22ySLXbk9YWWK5Gj5U";
+  const apiKey = "AIzaSyCvvcPQsUcvvadIJEbAmvv22ySLXbk9YvvWWK5Gj5U";
   const response = await fetch(
     `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&type=video&part=snippet&maxResults=20&q=${searchQuery}`
   );
